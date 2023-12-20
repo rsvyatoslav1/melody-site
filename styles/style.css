@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    height: 100vh;
+}
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    color: white;
+    background: #635854;
+
+    border-bottom: 4px solid #3596F5;
+}
+
+
+.nav-area {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.nav-item {
+    padding: 9px 16px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    transition: 0.2s;
+}
+.nav-item:hover {
+    background-color: #3596F5;
+
+    transition: 0.2s;
+}
+.nav-item p {
+    margin: 0;
+}
+.logo-area {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+}
+.logo-text h1 {
+    margin: 0;
+}
+.contact-area {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 80px;
+}
+.contact-area p {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.contact-area span {
+    font-weight: bold;
+}
+
+
+.main {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+}
+.main img {
+    width: 734px;
+    height: 640px;
+    margin-top: 54px;
+    margin-left: 81px;
+}
+.main .info-area {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 80px;
+
+    margin-left: 300px;
+}
+.main .info-area h2 {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 37px;
+    font-weight: 100;
+    color: #635854;
+}
+.floor-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.main .floor-block button {
+    border: none;
+    background-color: transparent;
+}
+.main .floor-block button img {
+    width: 32px;
+    height: 20px;
+
+    margin: 0;
+}
+.main .floor-block .floor-number {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 95px;
+    font-weight: 100;
+    color: #635854;
+}
+.see-apartaments {
+    width: 350px;
+    height: 50px;
+    background-color: #3596F5;
+    border: none;
+    border-radius: 10px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    width: 100%;    
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+    background-color: #D7D7D7;
+    position: absolute;
+    bottom: 0px;
+}  
+.footer p {
+    margin: 0;
+}  
+.footer-logo {
+    margin-left: 80px;
+}     
+.contacts {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #635854;
+}
+.footer-info {
+    position: absolute;
+    right: 80px;
+}
+.socials {
+    margin-left: 80px;
+}
+.socials img {
+    width: 20px;
+    height: 20px;
+
+    margin-right: 20px;
+}
